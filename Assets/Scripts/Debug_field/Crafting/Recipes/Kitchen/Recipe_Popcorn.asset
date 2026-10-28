@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_Popcorn
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uCE04\uB974 \uD31D\uCF58"
+  description: "\uCE04\uB974 \uC625\uC218\uC218\uB97C \uD1A1\uD1A1 \uD280\uAE34 \uAC04\uC2DD.
+    \uC601\uD654 \uBCFC \uB54C \uACE0\uC591\uC774\uB4E4\uC774 \uC81C\uC77C \uC88B\uC544\uD574\uC694."
+  tier: 0
+  station: 2
+  requiredCoreLevel: 2
+  ingredients:
+  - item: {fileID: 11400000, guid: 5abe95d65b8465c43a1c8a28f6ba8178, type: 2}
+    amount: 2
+  outputItem: {fileID: 11400000, guid: 7117f0a9b40b1134eaed1b09ac51bd0c, type: 2}
+  outputAmount: 3
+  craftSeconds: 10

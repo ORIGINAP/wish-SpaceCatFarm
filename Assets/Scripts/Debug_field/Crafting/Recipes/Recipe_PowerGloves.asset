@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_PowerGloves
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uD30C\uC6CC \uC7A5\uAC11"
+  description: 
+  tier: 1
+  station: 0
+  requiredCoreLevel: 2
+  ingredients:
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 4308958355191c743a06311876f7488b, type: 2}
+    amount: 2
+  outputItem: {fileID: 11400000, guid: 3bf577c23b95b7f439762e0d74452503, type: 2}
+  outputAmount: 1

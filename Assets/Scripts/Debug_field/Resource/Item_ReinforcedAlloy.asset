@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_ReinforcedAlloy
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uAC15\uD654 \uD569\uAE08"
+  description: "\uD569\uAE08\uC5D0 \uD2F0\uD0C0\uB284 \uC8FC\uAD34\uB97C \uB354\uD574
+    \uB2E8\uB2E8\uD558\uAC8C \uB9CC\uB4E0 \uD569\uAE08\uC774\uC5D0\uC694. \uB300\uD615
+    \uCC3D\uACE0\uC640 \uD50C\uB77C\uC988\uB9C8 \uB4DC\uB9B4\uC758 \uC7AC\uB8CC\uC608\uC694."
+  icon: {fileID: 21300000, guid: 345fe0f5832fd27478be730a28cdaa90, type: 3}
+  itemType: 2
+  basePrice: 90
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 3
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

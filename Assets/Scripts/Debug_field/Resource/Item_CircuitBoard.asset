@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_CircuitBoard
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uD68C\uB85C \uAE30\uD310"
+  description: "\uAD6C\uB9AC \uBC30\uC120\uACFC \uB9AC\uD2AC \uCE69\uC73C\uB85C \uB9CC\uB4E0
+    \uAE30\uD310\uC774\uC5D0\uC694. \uD0DC\uC591\uAD11 \uD328\uB110 \xB7 \uB300\uD615
+    \uBC30\uD130\uB9AC \uAC19\uC740 \uC804\uC790 \uC124\uBE44\uC758 \uC7AC\uB8CC\uC608\uC694."
+  icon: {fileID: 21300000, guid: 9631fcbcf7adc5f4bbd2d97974753653, type: 3}
+  itemType: 2
+  basePrice: 32
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 2
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

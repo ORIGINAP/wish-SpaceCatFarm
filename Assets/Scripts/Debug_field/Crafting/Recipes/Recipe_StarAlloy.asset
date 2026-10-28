@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_StarAlloy
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uBCC4\uBE5B \uD569\uAE08"
+  description: 
+  tier: 2
+  station: 1
+  requiredCoreLevel: 5
+  ingredients:
+  - item: {fileID: 11400000, guid: ce1ba0771eaceb441820228ce700d6da, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 8db1d47029041dd42a72827d803d8fb8, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 1d465876001f79d4c9ab6e9b62345a03, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: fb75187373f62e6498ca69248639473d, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: 13dcde189d6d71846ab8922996dedadf, type: 2}
+  outputAmount: 1

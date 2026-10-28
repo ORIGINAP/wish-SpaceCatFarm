@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_UraniumIngot
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uC6B0\uB77C\uB284 \uC8FC\uAD34"
+  description: 
+  tier: 0
+  station: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: 0dcd82f70efa4981af6f5ced8285f29e, type: 2}
+    amount: 2
+  outputItem: {fileID: 11400000, guid: 52774bf4b8aa9614a8398c848c2d1d0e, type: 2}
+  outputAmount: 1

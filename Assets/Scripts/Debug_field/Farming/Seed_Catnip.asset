@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9970dd4983fcaae409fd3b2d5855476d, type: 3}
+  m_Name: Seed_Catnip
+  m_EditorClassIdentifier: Assembly-CSharp::SeedData
+  seedName: "\uCEA3\uB2E2"
+  growthTime: 30
+  drops:
+  - item: {fileID: 11400000, guid: 687df9278cbf8734e97e90019f9a3dfa, type: 2}
+    amount: 1
+    dropChance: 1
+  - item: {fileID: 11400000, guid: f1c0ec1661b35f843aa899ea903385f5, type: 2}
+    amount: 1
+    dropChance: 1
+  - item: {fileID: 11400000, guid: f1c0ec1661b35f843aa899ea903385f5, type: 2}
+    amount: 1
+    dropChance: 0.3
+  cropData: {fileID: 11400000, guid: a19d0e6f2bc72484d9ebfb35af0774e5, type: 2}
+  trait: 2

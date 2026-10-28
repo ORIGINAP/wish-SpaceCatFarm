@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest12
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uBB38\uBA851"
+  description: "\uAE30\uCD08 \uC5F0\uAD6C\uC18C\uB97C \uC138\uC6CC \uC13C\uD130\uCF54\uC5B4\uB97C
+    \uBB38\uBA85 Lv.2 \u300C\uAC1C\uCC99 \uCEA0\uD504\u300D\uB85C \uBC1C\uC804\uC2DC\uD0A4\uC138\uC694"
+  tutorialTip: "\uC13C\uD130\uCF54\uC5B4\uB294 \uBB38\uBA85 \uC2DC\uC124\uC744 \uC138\uC6B0\uACE0
+    \uC804\uAE30\uB97C \uC774\uC5B4 \uC8FC\uBA74 \uBC1C\uC804\uD574\uC694. \uC81C\uC791\uCC3D(C)\uC758
+    '\uBB38\uBA85' \uD0ED\uC5D0\uC11C \uAE30\uCD08 \uC5F0\uAD6C\uC18C\uB97C \uB9CC\uB4E4\uC5B4
+    \uC911\uC559 \uBC1C\uC804\uC18C\uB098 \uC804\uB825 \uC911\uACC4\uD0D1 \uBC94\uC704
+    \uC548\uC5D0 \uC138\uC6CC \uBCF4\uC138\uC694 (\uBC1C\uC804\uC18C\uC5D0 \uC5F0\uB8CC\uAC00
+    \uC788\uC73C\uBA74 \uC804\uAE30\uAC00 \uB4E4\uC5B4\uC640\uC694). \uD654\uBA74
+    \uC704 \uAC00\uC6B4\uB370 \uBB38\uBA85 \uC54C\uB9BC\uD310\uC744 \uB204\uB974\uBA74
+    \uB2E4\uC74C \uB2E8\uACC4 \uC870\uAC74\uC774 \uBCF4\uC5EC\uC694. \uB2E8\uACC4\uB9C8\uB2E4
+    \uBC1C\uC804 \uC790\uAE08(\uCF54\uC778)\uB3C4 \uBAA8\uC544\uC57C \uD574\uC694.
+    Lv.2\uAC00 \uB418\uBA74 \uC911\uAE09 \uC81C\uC791\uC744 \uC5F0\uAD6C\uD560 \uC218
+    \uC788\uC5B4\uC694."
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: acb5eb449f2b38f46900960d9674f153, type: 2}
+    targetTechNodeId: 
+    targetAmount: 1
+  - type: 6
+    targetItem: {fileID: 0}
+    targetTechNodeId: 
+    targetAmount: 2
+  rewards:
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 5

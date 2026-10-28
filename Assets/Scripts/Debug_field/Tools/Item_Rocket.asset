@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Rocket
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uB85C\uCF13 \uBD80\uC2A4\uD130"
+  description: "\uD0DC\uC591 \uD574\uBC14\uB77C\uAE30 \uAE30\uB984\uC73C\uB85C \uB0A0\uC544\uC624\uB974\uB294 \uBD80\uC2A4\uD130\uC608\uC694. \uB9D0\uB791 \uC824\uB9AC \uBD80\uCE20\uC758 \uB9C8\uC9C0\uB9C9 \uB2E8\uACC4."
+  icon: {fileID: 21300000, guid: 41daaeaa1c0f3ae4aa94640570617453, type: 3}
+  itemType: 4
+  basePrice: 1000
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 4
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 3
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses:
+  - statType: 0
+    bonus: 1

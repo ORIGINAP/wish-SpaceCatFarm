@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C1_07_Smelter
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uC81C\uB828\uC18C \uC138\uC6B0\uAE30"
+  description: "\uAD11\uC11D\uC740 \uADF8\uB300\uB85C \uBABB \uC368\uC694. \uC81C\uB828\uC18C\uC5D0\uC11C
+    \uB179\uC5EC \uC8FC\uAD34\uB85C \uB9CC\uB4E4\uC5B4\uC694."
+  talk: "\uAD11\uC11D\uC740 \uADF8\uB300\uB85C\uB294 \uBABB \uC368\uC694. \uC81C\uB828\uC18C\uB97C
+    \uC138\uC6CC\uC11C \uB179\uC5EC \uBD10\uC694!"
+  hint: "[\uC81C\uC791](C) \u2192 \uC124\uBE44 \uD0ED \u2192 \uC81C\uB828\uC18C \uB9CC\uB4E4\uAE30
+    \u2192 \uC13C\uD130\uCF54\uC5B4 \uACC1\uC5D0 \uC124\uCE58"
+  padHint: "\uC2ED\uC790\uD0A4 \u2191 \uC81C\uC791 \u2192 \uC124\uBE44 \uD0ED \u2192
+    \uC81C\uB828\uC18C \u2192 RT\uB85C \uC124\uCE58"
+  tutorialTip: "\uC81C\uB828\uC18C\uB294 \uC804\uAE30\uAC00 \uC788\uC5B4\uC57C \uB3CC\uC544\uAC00\uC694
+    (\uC13C\uD130\uCF54\uC5B4 \uB458\uB808 25\uCE78). \uC124\uCE58\uBB3C\uC744 \uB4E4\uBA74
+    \uC804\uAE30 \uBC94\uC704\uAC00 \uD14C\uB450\uB9AC\uB85C \uBCF4\uC5EC\uC694."
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: 302e76d6c20216141bbe3634037d4c09, type: 2}
+    targetTechNodeId: 
+    targetAmount: 1
+  rewards: []
+  rewardCoins: 0

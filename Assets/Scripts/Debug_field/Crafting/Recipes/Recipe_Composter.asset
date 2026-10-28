@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_Composter
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uD1F4\uBE44\uD1B5"
+  description: "\uB0A8\uB294 \uC528\uC557 \xB7 \uC791\uBB3C\uB85C \uD1F4\uBE44\uB97C
+    \uB9CC\uB4DC\uB294 \uD1B5"
+  tier: 0
+  station: 0
+  requiredCoreLevel: 0
+  ingredients:
+  - item: {fileID: 11400000, guid: b2f06c22c5a618b47ba6607bc3b0d187, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 4308958355191c743a06311876f7488b, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: 775eef252d406264bbda62c60cad5992, type: 2}
+  outputAmount: 1
+  craftSeconds: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: SunFlower
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uD0DC\uC591 \uD574\uBC14\uB77C\uAE30"
+  description: "\uD587\uBE5B\uC744 \uAC00\uB4DD \uB2F4\uC544 \uC2A4\uC2A4\uB85C \uBE5B\uB098\uB294
+    \uD574\uBC14\uB77C\uAE30\uC608\uC694."
+  icon: {fileID: 21300000, guid: 50d63c721551e0e47b70b47ea166ebb0, type: 3}
+  itemType: 2
+  basePrice: 300
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 4
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 1
+  goldenVariant: {fileID: 11400000, guid: 93f46b458a3015d4a8df308859888c4b, type: 2}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

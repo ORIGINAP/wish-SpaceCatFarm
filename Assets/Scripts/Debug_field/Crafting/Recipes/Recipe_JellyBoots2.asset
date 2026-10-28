@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_JellyBoots2
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uB9D0\uB791 \uC824\uB9AC \uBD80\uCE20 II"
+  description: "\uB9D0\uB791 \uC824\uB9AC \uBD80\uCE20\uB97C \uAC15\uD654\uD569\uB2C8\uB2E4"
+  tier: 2
+  station: 0
+  requiredCoreLevel: 4
+  ingredients:
+  - item: {fileID: 11400000, guid: 42bc70d32c718dd4c830f4d8b8e6f656, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: ce1ba0771eaceb441820228ce700d6da, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 8f2a30eab7b91134a8fe08562dfff0f5, type: 2}
+    amount: 4
+  outputItem: {fileID: 11400000, guid: c51efb781f135abab857d0efbbc90d8c, type: 2}
+  outputAmount: 1

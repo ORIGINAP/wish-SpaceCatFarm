@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_StarAlloy
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uBCC4\uBE5B \uD569\uAE08"
+  description: "\uD2F0\uD0C0\uB284 \uD569\uAE08\uC5D0 \uC138 \uAC00\uC9C0 \uBCC4
+    \uC791\uBB3C\uC744 \uB179\uC5EC \uB123\uC740 \uC2E0\uBE44\uD55C \uD569\uAE08\uC774\uC5D0\uC694.
+    \uD589\uC131 \uC774\uC8FC \uD504\uB85C\uD1A0\uCF5C\uC758 \uD575\uC2EC \uC7AC\uB8CC\uC608\uC694."
+  icon: {fileID: 21300000, guid: 1b9047682c880964596810fbc43aefbd, type: 3}
+  itemType: 2
+  basePrice: 145
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 3
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_InfiniteStorage
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uBB34\uD55C \uCC3D\uACE0"
+  description: "\uC544\uBB34\uB9AC \uB123\uC5B4\uB3C4 \uB05D\uC5C6\uC774 \uB2F4\uAE30\uB294
+    \uC2E0\uAE30\uD55C \uCC3D\uACE0\uC608\uC694 (2\xD72). \uBB34\uC5C7\uC774\uB4E0
+    \uB123\uC744 \uC218 \uC788\uC5B4\uC694."
+  icon: {fileID: 21300000, guid: 38fb9c974479cc849bd8e7cf7eccc958, type: 3}
+  itemType: 0
+  basePrice: 850
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 4
+  tilePrefab: {fileID: 5774912779971378344, guid: 7617360507ea11447a3700e715f484ec, type: 3}
+  tileWidth: 2
+  tileHeight: 2
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

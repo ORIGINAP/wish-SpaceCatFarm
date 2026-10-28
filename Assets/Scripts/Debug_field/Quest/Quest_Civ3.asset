@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest_Civ3
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uBB38\uBA852"
+  description: "\uC628\uC2E4\uACFC \uAE09\uC218\uD0D1\uC744 \uC138\uC6CC \uC13C\uD130\uCF54\uC5B4\uB97C \uBB38\uBA85 Lv.3 \u300C\uB18D\uC5C5 \uB9C8\uC744\u300D\uB85C \uBC1C\uC804\uC2DC\uD0A4\uC138\uC694"
+  tutorialTip: "\uC628\uC2E4 \u00B7 \uAE09\uC218\uD0D1\uC740 \uC81C\uC791\uCC3D(C)\uC758 '\uBB38\uBA85' \uD0ED\uC5D0 \uC788\uC5B4\uC694. \uC791\uBB3C\uC744 5\uC885 \uC218\uD655\uD574 \uBCF4\uB294 \uAC83\uB3C4 \uC870\uAC74\uC774\uC5D0\uC694. \uBB38\uBA85 \uB2E8\uACC4\uAC00 \uC624\uB97C \uB54C\uB9C8\uB2E4 \uC0C8 \uB808\uC2DC\uD53C \u00B7 \uC528\uC557 \u00B7 \uC5F0\uAD6C\uAC00 \uC5F4\uB824\uC694 \u2014 \uC13C\uD130\uCF54\uC5B4\uB97C \uD074\uB9AD\uD558\uBA74 \uB2E4\uC74C \uB2E8\uACC4\uC5D0\uC11C \uC5F4\uB9AC\uB294 \uAC83\uC744 \uBCFC \uC218 \uC788\uC5B4\uC694."
+  objectives:
+  - type: 6
+    targetItem: {fileID: 0}
+    targetTechNodeId:
+    targetAmount: 3
+  rewards:
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: f5db674cedce19a4e9cd9ea9cd6f80ff, type: 2}
+    amount: 4

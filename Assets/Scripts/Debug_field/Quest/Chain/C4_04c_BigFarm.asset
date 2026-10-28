@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C4_04c_BigFarm
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uD070 \uB18D\uC7A5"
+  description: "\uACE0\uAE09 \uC790\uB3D9\uC218\uD655\uAE30\uB294 \uB354 \uB113\uC740
+    \uBC94\uC704\uC5D0\uC11C \uD55C \uBC88\uC5D0 \uC5EC\uB7EC \uCE78\uC744 \uAC70\uB46C\uC694.
+    \uBC2D\uC744 60\uCE78\uC73C\uB85C \uB113\uD788\uACE0 \uACE0\uAE09 \uC790\uB3D9\uC218\uD655\uAE30\uB97C
+    \uC138\uC6CC\uC694."
+  talk: "\uC154\uD2C0\uC774 \uB450 \uCC99\uC774\uB77C \uC9D0\uB3C4 \uB450 \uBC30\uC608\uC694!
+    \uBC2D\uC744 60\uCE78\uC73C\uB85C \uB113\uD788\uACE0 \uACE0\uAE09 \uC790\uB3D9\uC218\uD655\uAE30\uB97C
+    \uB4E4\uC5EC\uC694."
+  hint: "[\uC81C\uC791](C) \u2192 \uB18D\uC0AC \uD0ED \u2192 \uD50C\uB79C\uD2B8 \xB7
+    \uACE0\uAE09 \uC790\uB3D9\uC218\uD655\uAE30 \u2192 \uBC2D \uACC1\uC5D0 \uC124\uCE58"
+  padHint: "\uC2ED\uC790\uD0A4 \u2191 \uC81C\uC791 \u2192 \uB18D\uC0AC \uD0ED \u2192
+    \uD50C\uB79C\uD2B8 \xB7 \uACE0\uAE09 \uC790\uB3D9\uC218\uD655\uAE30 \u2192 RT\uB85C
+    \uC124\uCE58"
+  tutorialTip: "\uACE0\uAE09 \uC790\uB3D9\uC218\uD655\uAE30 = \uC790\uB3D9\uC218\uD655\uAE30
+    + \uD2F0\uD0C0\uB284 \uD569\uAE08 2 + \uD569\uAE08 2. \uCC29\uB959\uC7A5\uC744
+    \uCC3D\uACE0\uC640 \uC774\uC73C\uBA74(\uC154\uD2C0 \uCC3D [\uCC3D\uACE0 \uC5F0\uACB0])
+    \uCC3D\uACE0\uC758 \uC218\uD655\uBB3C\uC774 \uC154\uD2C0\uC5D0 \uC54C\uC544\uC11C
+    \uC2E4\uB824\uC694."
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+    targetTechNodeId: 
+    targetAmount: 60
+  - type: 3
+    targetItem: {fileID: 11400000, guid: 07926f76c06948aaa82ef0feaf3666e7, type: 2}
+    targetTechNodeId: 
+    targetAmount: 1
+  rewards: []
+  rewardCoins: 800

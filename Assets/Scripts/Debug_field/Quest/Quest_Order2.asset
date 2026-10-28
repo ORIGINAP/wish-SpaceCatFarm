@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest_Order2
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uC8FC\uBB382"
+  description: "\uC8FC\uBB38\uC744 4\uAC74 \uB354 \uB0A9\uD488\uD558\uC138\uC694"
+  tutorialTip: "\uBB38\uBA85 Lv.3\uBD80\uD130 \uC8FC\uBB38\uC774 \uCEE4\uC838\uC694.
+    \uAE09\uC218\uD0D1\uC740 \uC8FC\uBCC0 \uBC2D\uC5D0 \uBB3C\uC744 \uC918 \uC791\uBB3C\uC774
+    \uBE68\uB9AC \uC790\uB77C\uACE0, \uD1B5\uC2E0\uD0D1\uC744 \uC138\uC6B0\uBA74
+    \uC8FC\uBB38 \uCE78\uC774 \uB298\uC5B4\uB098\uC694. \uC5F0\uAD6C(T)\uC758 '\uC8FC\uBB38
+    \uD611\uC0C1'\uC744 \uC62C\uB9AC\uBA74 \uBCF4\uC0C1\uB3C4 \uCEE4\uC838\uC694."
+  objectives:
+  - type: 7
+    targetItem: {fileID: 0}
+    targetTechNodeId: 
+    targetAmount: 4
+  rewards:
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 39fbe5ea8f6faac408f132a5870eb5d2, type: 2}
+    amount: 5

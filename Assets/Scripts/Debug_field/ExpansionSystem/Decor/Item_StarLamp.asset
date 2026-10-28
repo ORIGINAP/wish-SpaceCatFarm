@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_StarLamp
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uBCC4\uBE5B \uAC00\uB85C\uB4F1"
+  description: "\uBC18\uC9DD\uC774\uB294 \uBCC4 \uBAA8\uC591 \uAC00\uB85C\uB4F1\uC774\uC5D0\uC694.
+    \uB18D\uC7A5\uC744 \uC608\uC058\uAC8C \uAFB8\uBA70 \uC918\uC694."
+  icon: {fileID: 21300000, guid: c1256e114327cbf46bc6bab954e7ed1f, type: 3}
+  itemType: 0
+  basePrice: 36
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tilePrefab: {fileID: 4569097278027484312, guid: dfaa0d468484d7d46be0e77a213c8070, type: 3}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

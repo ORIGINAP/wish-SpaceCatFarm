@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Smelter
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uC81C\uB828\uC18C"
+  description: "\uAD11\uC11D\uC744 \uC8FC\uAD34\uB85C, \uC8FC\uAD34\uB97C \uD569\uAE08\uC73C\uB85C
+    \uBC14\uAFB8\uB294 \uC124\uBE44\uC608\uC694. \uADFC\uCC98\uC5D0\uC11C \uC81C\uC791\uCC3D\uC744
+    \uC5F4\uBA74 '\uC81C\uB828' \uB808\uC2DC\uD53C\uAC00 \uBCF4\uC5EC\uC694. \uC606
+    \uCC3D\uACE0\uC758 \uAD11\uC11D\uB3C4 \uC54C\uC544\uC11C \uC8FC\uAD34\uB85C \uBC14\uAFD4\uC694."
+  icon: {fileID: 21300000, guid: 0a718a80ace65854595c6b225405a334, type: 3}
+  itemType: 0
+  basePrice: 48
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tilePrefab: {fileID: 6591365503724249289, guid: bfa1a6f9f21476649aaf51218083a0a0, type: 3}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

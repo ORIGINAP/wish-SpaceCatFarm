@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_Civ_Habitat
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uAC70\uC8FC \uBAA8\uB4C8"
+  description: "\uACE0\uC591\uC774 \uC8FC\uBBFC\uB4E4\uC774 \uC9C0\uB0BC \uC544\uB291\uD55C
+    \uC9D1\uC774\uC5D0\uC694."
+  tier: 1
+  station: 0
+  requiredCoreLevel: 5
+  ingredients:
+  - item: {fileID: 11400000, guid: 36f7eafa9e9b77240b4961871c2f738e, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 8f2a30eab7b91134a8fe08562dfff0f5, type: 2}
+    amount: 4
+  - item: {fileID: 11400000, guid: 687df9278cbf8734e97e90019f9a3dfa, type: 2}
+    amount: 2
+  outputItem: {fileID: 11400000, guid: 09f03c176ddeb4145935073a6327af83, type: 2}
+  outputAmount: 1

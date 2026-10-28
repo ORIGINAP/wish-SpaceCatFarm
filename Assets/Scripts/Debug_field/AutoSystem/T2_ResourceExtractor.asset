@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: T2_ResourceExtractor
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uACE0\uAE09 \uC790\uB3D9\uCC44\uAD74\uAE30"
+  description: "2x2 \uD06C\uAE30, T1\uBCF4\uB2E4 \uB354 \uBE60\uB974\uACE0 \uB354
+    \uB9CE\uC774 \uCC44\uAD74\uD569\uB2C8\uB2E4"
+  icon: {fileID: 4326850718582016277, guid: 7fe312f513ca59c4b949573c1a946c2d, type: 3}
+  itemType: 0
+  basePrice: 395
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 3
+  tilePrefab: {fileID: 5896705826427727998, guid: 7bdc7fc03f2747db8264410747fe7c82, type: 3}
+  tileWidth: 2
+  tileHeight: 2
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

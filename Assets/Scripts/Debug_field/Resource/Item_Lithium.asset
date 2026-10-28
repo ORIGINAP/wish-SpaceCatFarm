@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Lithium
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uB9AC\uD2AC \uAD11\uC11D"
+  description: "\uBD84\uD64D\uBE5B \uB9AC\uD2AC \uACB0\uC815\uC774\uC5D0\uC694. \uC81C\uB828\uC18C\uC5D0\uC11C
+    2\uAC1C\uB97C \uB179\uC774\uBA74 \uB9AC\uD2AC \uC8FC\uAD34 1\uAC1C\uAC00 \uB3FC\uC694.
+    \uBC1C\uC804\uAE30 \uC5F0\uB8CC\uB85C\uB3C4 \uC4F8 \uC218 \uC788\uC5B4\uC694."
+  icon: {fileID: 6179994247288608382, guid: 95abab35510cab24891a171366f42332, type: 3}
+  itemType: 2
+  basePrice: 7
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 2
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  goldenVariant: {fileID: 0}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 5
+  harvestRadius: 0
+  equipBonuses: []

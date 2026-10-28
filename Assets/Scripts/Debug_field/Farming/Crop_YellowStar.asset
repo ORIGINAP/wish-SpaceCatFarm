@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac986a4229f48a40bb00796bb21582c, type: 3}
+  m_Name: Crop_YellowStar
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: "\uC610\uB85C\uC2A4\uD0C0"
+  stageSprites:
+  - {fileID: -2470383930922815410, guid: b0bfe263781cf47409ae9f62f7fdb281, type: 3}
+  - {fileID: -2727200743719783394, guid: fa5bf9807d96b0f46a49fa39f7f40e16, type: 3}
+  - {fileID: 7529239178053315462, guid: d10e10ea5a9782d49ad24b810871a2ab, type: 3}
+  stageTimes:
+  - 10
+  - 10

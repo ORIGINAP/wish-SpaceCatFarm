@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C6_01_StarAlloy
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uBCC4\uBE5B \uD569\uAE08"
+  description: "\uCD5C\uC885 \uC774\uC8FC \uACC4\uD68D(\uD589\uC131 \uC774\uC8FC
+    \uD504\uB85C\uD1A0\uCF5C)\uC5D0 \uBCC4\uC758 \uD798\uC774 \uAE43\uB4E0 \uD569\uAE08\uC774
+    \uB4E4\uC5B4\uAC00\uC694."
+  talk: "\uD070 \uC774\uC8FC\uC120\uC744 \uB9DE\uC73C\uB824\uBA74 \uBCC4\uC758 \uD798\uC774
+    \uAE43\uB4E0 \uD569\uAE08\uC774 \uC788\uC5B4\uC57C \uD574\uC694."
+  hint: "[\uC81C\uC791](C) \u2192 \uC7AC\uB8CC \uD0ED \u2192 \uBCC4\uBE5B \uD569\uAE08
+    (\uD2F0\uD0C0\uB284 \uD569\uAE08 + \uBCC4 \uC791\uBB3C 3\uC885) \xD75"
+  padHint: "\uC2ED\uC790\uD0A4 \u2191 \uC81C\uC791 \u2192 \uC7AC\uB8CC \uD0ED \u2192
+    \uBCC4\uBE5B \uD569\uAE08"
+  tutorialTip: 
+  objectives:
+  - type: 1
+    targetItem: {fileID: 11400000, guid: 13dcde189d6d71846ab8922996dedadf, type: 2}
+    targetTechNodeId: 
+    targetAmount: 5
+  rewards: []
+  rewardCoins: 5000

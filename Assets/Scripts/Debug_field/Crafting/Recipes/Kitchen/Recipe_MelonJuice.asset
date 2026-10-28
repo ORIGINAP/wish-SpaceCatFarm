@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_MelonJuice
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uC740\uD558 \uC218\uBC15 \uC8FC\uC2A4"
+  description: "\uC740\uD558 \uC218\uBC15\uACFC \uD06C\uB9AC\uC2A4\uD0C8 \uBCA0\uB9AC\uB97C
+    \uAC08\uC544 \uB9CC\uB4E0 \uC6B0\uC8FC\uC0C9 \uC8FC\uC2A4. \uBCC4\uC774 \uB3D9\uB3D9
+    \uB5A0 \uC788\uC5B4\uC694."
+  tier: 0
+  station: 2
+  requiredCoreLevel: 5
+  ingredients:
+  - item: {fileID: 11400000, guid: c3c1d4ab57abb3f4ab5d605a1f1109ce, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 5ad1da89daa3039468cb737d9aaa72c2, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: e5d12290973a69544875b6ddd0cb939e, type: 2}
+  outputAmount: 2
+  craftSeconds: 16

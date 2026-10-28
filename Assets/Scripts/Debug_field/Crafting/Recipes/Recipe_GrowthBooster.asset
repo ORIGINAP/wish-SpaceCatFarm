@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_GrowthBooster
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uC131\uC7A5 \uCD09\uC9C4\uAE30"
+  description: 
+  tier: 2
+  station: 0
+  requiredCoreLevel: 5
+  ingredients:
+  - item: {fileID: 11400000, guid: 05dd3c26530d0f442a3c7f6e601a9bd0, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: aea2542efd9d72d46827de540616412b, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 2
+  outputItem: {fileID: 11400000, guid: b91d4d0842bf5534897ebe047c24934d, type: 2}
+  outputAmount: 1

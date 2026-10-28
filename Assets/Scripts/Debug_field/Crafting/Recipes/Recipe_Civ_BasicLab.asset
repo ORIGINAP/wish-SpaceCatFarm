@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_Civ_BasicLab
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uAE30\uCD08 \uC5F0\uAD6C\uC18C"
+  description: "\uBB38\uBA85\uC758 \uCCAB\uAC78\uC74C! \uC804\uAE30\uB97C \uC774\uC5B4
+    \uC8FC\uBA74 \uC13C\uD130\uCF54\uC5B4\uAC00 \uAC1C\uCC99 \uCEA0\uD504\uB85C \uBC1C\uC804\uD560
+    \uC218 \uC788\uC5B4\uC694."
+  tier: 0
+  station: 0
+  requiredCoreLevel: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: 4308958355191c743a06311876f7488b, type: 2}
+    amount: 6
+  - item: {fileID: 11400000, guid: b2f06c22c5a618b47ba6607bc3b0d187, type: 2}
+    amount: 6
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: acb5eb449f2b38f46900960d9674f153, type: 2}
+  outputAmount: 1

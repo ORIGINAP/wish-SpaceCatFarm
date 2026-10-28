@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_SolarPanel
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uD0DC\uC591\uAD11 \uD328\uB110"
+  description: "\uB0AE(06:00~18:00) \uB3D9\uC548 \uC5F0\uB8CC \uC5C6\uC774 \uBC1C\uC804\uD574
+    6\uCE78 \uC548\uC758 \uC124\uBE44\uC5D0 \uC804\uAE30\uB97C \uC918\uC694. \uACC1\uC758
+    \uC804\uB825 \uC911\uACC4\uD0D1\uB3C4 \uB0AE \uB3D9\uC548 \uC774\uC5B4 \uC904
+    \uC218 \uC788\uC5B4\uC694."
+  icon: {fileID: 21300000, guid: 48e5b70065eeea2409382cc88f16b182, type: 3}
+  itemType: 0
+  basePrice: 150
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 2
+  tilePrefab: {fileID: 7660629378994308228, guid: af36aaecd8102654596803278162ffb4, type: 3}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

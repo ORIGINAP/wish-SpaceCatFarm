@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_SolarPanel
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uD0DC\uC591\uAD11 \uD328\uB110"
+  description: 
+  tier: 1
+  station: 0
+  requiredCoreLevel: 3
+  ingredients:
+  - item: {fileID: 11400000, guid: 05dd3c26530d0f442a3c7f6e601a9bd0, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 36f7eafa9e9b77240b4961871c2f738e, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: e8556bd5f4dbada4ba7912469a0c4077, type: 2}
+  outputAmount: 1

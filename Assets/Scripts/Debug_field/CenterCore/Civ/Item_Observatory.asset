@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Observatory
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uCC9C\uBB38\uB300"
+  description: "\uACE0\uD5A5\uBCC4\uAE4C\uC9C0 \uAC00\uB294 \uD558\uB298\uAE38\uC744
+    \uCC3E\uACE0 \uBC24\uD558\uB298\uC744 \uC0B4\uD53C\uB294 \uCC9C\uBB38\uB300\uC608\uC694."
+  icon: {fileID: 21300000, guid: 168d1216007862442af77ca64ea45bde, type: 3}
+  itemType: 0
+  basePrice: 0
+  hideFromShop: 1
+  unlockCoreLevel: 0
+  tier: 4
+  tilePrefab: {fileID: 6774937791575092524, guid: f106d2dc2bfe7e54a88aa7d4739b1231, type: 3}
+  tileWidth: 2
+  tileHeight: 2
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  goldenVariant: {fileID: 0}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

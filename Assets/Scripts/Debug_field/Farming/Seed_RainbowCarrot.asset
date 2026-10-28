@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9970dd4983fcaae409fd3b2d5855476d, type: 3}
+  m_Name: Seed_RainbowCarrot
+  m_EditorClassIdentifier: Assembly-CSharp::SeedData
+  seedName: "\uBB34\uC9C0\uAC1C \uB2F9\uADFC \uC528\uC557"
+  growthTime: 38
+  drops:
+  - item: {fileID: 11400000, guid: e26842f3071f72b4eaa6d5a6b1725973, type: 2}
+    amount: 1
+    dropChance: 1
+  - item: {fileID: 11400000, guid: f2cfb641337fd8f4ca2ffecbb0133063, type: 2}
+    amount: 1
+    dropChance: 1
+  - item: {fileID: 11400000, guid: f2cfb641337fd8f4ca2ffecbb0133063, type: 2}
+    amount: 1
+    dropChance: 0.3
+  cropData: {fileID: 11400000, guid: 2ddb8f892d5028849b6fb7e1671cd737, type: 2}
+  trait: 9

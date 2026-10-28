@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C5_03_Melon
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uC740\uD558 \uC218\uBC15"
+  description: "\uC740\uD558 \uC218\uBC15\uC740 \uD06C\uACE0 \uBE44\uC2F8\uC694.
+    \uD1F4\uBE44\uB97C \uC8FC\uBA74 \uB450 \uAC1C\uC529 \uB354 \uC5F4\uB824\uC694!"
+  talk: "\uC740\uD558 \uC218\uBC15\uC740 \uD06C\uACE0 \uB2EC\uCF64\uD574\uC11C \uBE44\uC2F8\uAC8C
+    \uD314\uB824\uC694!"
+  hint: "\uC740\uD558 \uC218\uBC15 \uC528\uC557\uC744 \uC2EC\uACE0 \uAC70\uB46C\uC694
+    (\uC0C1\uC810(B)\uC5D0\uC11C\uB3C4 \uD314\uC544\uC694)"
+  padHint: "\uC740\uD558 \uC218\uBC15 \uC528\uC557\uC744 \uC2EC\uACE0 \uAC70\uB46C\uC694
+    (\uC0C1\uC810: \uC2ED\uC790\uD0A4 \u2192)"
+  tutorialTip: 
+  objectives:
+  - type: 2
+    targetItem: {fileID: 11400000, guid: c3c1d4ab57abb3f4ab5d605a1f1109ce, type: 2}
+    targetTechNodeId: 
+    targetAmount: 3
+  rewards: []
+  rewardCoins: 3000

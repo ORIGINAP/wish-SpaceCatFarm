@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C2_01_Kitchen
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uACE0\uC591\uC774 \uC8FC\uBC29"
+  description: "\uC791\uBB3C\uB85C \uC694\uB9AC\uD558\uBA74 \uD6E8\uC52C \uBE44\uC2F8\uAC8C
+    \uD314\uB824\uC694. \uACE0\uC591\uC774 \uC8FC\uBC29\uC744 \uC9C0\uC5B4\uC694."
+  talk: "\uC791\uBB3C\uC744 \uC694\uB9AC\uD558\uBA74 \uD6E8\uC52C \uBE44\uC2F8\uAC8C
+    \uD314\uB824\uC694. \uC6B0\uB9AC\uB3C4 \uC8FC\uBC29\uC744 \uC9C0\uC5B4 \uBD10\uC694!"
+  hint: "[\uC81C\uC791](C) \u2192 \uB18D\uC0AC \uD0ED \u2192 \uACE0\uC591\uC774 \uC8FC\uBC29
+    \u2192 \uC804\uAE30 \uBC94\uC704 \uC548\uC5D0 \uC124\uCE58"
+  padHint: "\uC2ED\uC790\uD0A4 \u2191 \uC81C\uC791 \u2192 \uB18D\uC0AC \uD0ED \u2192
+    \uACE0\uC591\uC774 \uC8FC\uBC29 \u2192 RT\uB85C \uC124\uCE58"
+  tutorialTip: "\uC8FC\uBC29(2\xD72)\uC5D4 \uCCA0 \uC8FC\uAD34 4 \xB7 \uAD6C\uB9AC
+    \uC8FC\uAD34 3 \xB7 \uD569\uAE08 1\uC774 \uB4E4\uC5B4\uAC00\uC694."
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: b29108e632356d447af75aaf56fbd0eb, type: 2}
+    targetTechNodeId: 
+    targetAmount: 1
+  rewards:
+  - item: {fileID: 11400000, guid: f1c0ec1661b35f843aa899ea903385f5, type: 2}
+    amount: 4
+  rewardCoins: 0

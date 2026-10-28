@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9970dd4983fcaae409fd3b2d5855476d, type: 3}
+  m_Name: Seed_BlueStar
+  m_EditorClassIdentifier: Assembly-CSharp::SeedData
+  seedName: "\uBE14\uB8E8\uC2A4\uD0C0 \uC528\uC557"
+  growthTime: 30
+  drops:
+  - item: {fileID: 11400000, guid: d63e8dc05f29e9b41a5de95b012d290e, type: 2}
+    amount: 1
+    dropChance: 1
+  - item: {fileID: 11400000, guid: 8db1d47029041dd42a72827d803d8fb8, type: 2}
+    amount: 1
+    dropChance: 1
+  - item: {fileID: 11400000, guid: d63e8dc05f29e9b41a5de95b012d290e, type: 2}
+    amount: 1
+    dropChance: 0.3
+  cropData: {fileID: 11400000, guid: b40d86e62b8eead4e83f784a37dd479f, type: 2}
+  trait: 1

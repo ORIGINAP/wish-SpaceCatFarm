@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest_Feast
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uC774\uC8FC \uB9CC\uCC2C"
+  description: "\uACE0\uC591\uC774 \uB9CC\uCC2C\uC744 \uC694\uB9AC\uD558\uC138\uC694"
+  tutorialTip: "\uC774\uC8FC\uB97C \uCD95\uD558\uD560 \uACE0\uC591\uC774 \uB9CC\uCC2C\uC744
+    \uCC28\uB824 \uBD10\uC694: \uCE04\uB974 2 \xB7 \uD06C\uB9AC\uC2A4\uD0C8 \uBCA0\uB9AC
+    \uD0C0\uB974\uD2B8 \xB7 \uC740\uD558 \uC218\uBC15 \uC8FC\uC2A4 \xB7 \uBB34\uC9C0\uAC1C
+    \uC0D0\uB7EC\uB4DC. \uD06C\uB9AC\uC2A4\uD0C8 \uBCA0\uB9AC\uB294 [\uBCC4\uBE5B]
+    \uC131\uD5A5\uC774\uB77C \uBC24\uC5D0 \uC798 \uC790\uB77C\uACE0 \uC624\uB85C\uB77C\uAC00
+    \uB728\uBA74 \uD669\uAE08 \uBCA0\uB9AC\uAC00 \uC798 \uC5F4\uB824\uC694."
+  objectives:
+  - type: 1
+    targetItem: {fileID: 11400000, guid: 3fd9afa51b886174d914f0b2d5f6e232, type: 2}
+    targetTechNodeId: 
+    targetAmount: 1
+  rewards:
+  - item: {fileID: 11400000, guid: dcb2055fb84efb74493479f3033564c0, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 39fbe5ea8f6faac408f132a5870eb5d2, type: 2}
+    amount: 15

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_PowerRelay
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uC804\uB825 \uC911\uACC4\uD0D1"
+  description: "\uC911\uC559 \uBC1C\uC804\uC18C\uC758 \uC804\uAE30\uB97C \uBA40\uB9AC
+    \uB113\uD788\uB294 \uAC70\uB300\uD55C \uD0D1\uC774\uC5D0\uC694. \uBC1C\uC804\uC18C\uB098
+    \uB2E4\uB978 \uC911\uACC4\uD0D1 \uBC94\uC704 \uC548\uC5D0 \uC138\uC6B0\uBA74
+    \uC804\uAE30\uAC00 \uC774\uC5B4\uC9C0\uACE0, 30\uCE78 \uC548\uC5D0 \uC804\uAE30\uB97C
+    \uC918\uC694."
+  icon: {fileID: 21300000, guid: 8f0a49b88ed410646ad9096e7f08d1c8, type: 3}
+  itemType: 0
+  basePrice: 200
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tilePrefab: {fileID: 8296639826460321972, guid: 23bf71d3f41012d42811567f5f3fbff8, type: 3}
+  tileWidth: 3
+  tileHeight: 3
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

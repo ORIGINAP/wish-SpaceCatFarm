@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac986a4229f48a40bb00796bb21582c, type: 3}
+  m_Name: Crop_CometPepper
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: "\uD61C\uC131 \uACE0\uCD94"
+  stageSprites:
+  - {fileID: 21300000, guid: 210e2a53448172d46a5cf7f78d7cb7b6, type: 3}
+  - {fileID: 21300000, guid: e9ede365917b1d540a62d1ebc1ed5773, type: 3}
+  - {fileID: 21300000, guid: ac9250af34b160540a98857244dbe44b, type: 3}
+  stageTimes:
+  - 20
+  - 20

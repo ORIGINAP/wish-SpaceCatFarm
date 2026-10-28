@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_ToolBelt
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uAC74\uCD95\uAC00 \uACF5\uAD6C\uBCA8\uD2B8"
+  description: 
+  tier: 1
+  station: 0
+  requiredCoreLevel: 3
+  ingredients:
+  - item: {fileID: 11400000, guid: 36f7eafa9e9b77240b4961871c2f738e, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: b2f06c22c5a618b47ba6607bc3b0d187, type: 2}
+    amount: 2
+  outputItem: {fileID: 11400000, guid: 801f87bc8efbca546a93fa866753804d, type: 2}
+  outputAmount: 1

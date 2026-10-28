@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_CatKitchen
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uACE0\uC591\uC774 \uC8FC\uBC29"
+  description: "2x2 \uD06C\uAE30. \uC791\uBB3C\uC744 \uC7BC \xB7 \uCE04\uB974 \xB7
+    \uD0C0\uB974\uD2B8 \uAC19\uC740 \uC694\uB9AC\uB85C \uB9CC\uB4E4\uC5B4\uC694.
+    \uC694\uB9AC\uB294 \uBE44\uC2F8\uAC8C \uD314\uB9AC\uACE0 \uC154\uD2C0 \uC9D0\uC73C\uB85C
+    \uC778\uAE30 \uB9CC\uC810!"
+  icon: {fileID: 21300000, guid: d95591c9dc2d2844c96a866a079202e7, type: 3}
+  itemType: 0
+  basePrice: 150
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 2
+  tilePrefab: {fileID: 6866399100147722631, guid: 6c877d36397dbd34d8ac5c1c622da0a3, type: 3}
+  tileWidth: 2
+  tileHeight: 2
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  goldenVariant: {fileID: 0}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

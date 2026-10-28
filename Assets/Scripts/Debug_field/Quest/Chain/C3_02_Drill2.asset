@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C3_02_Drill2
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uD2F0\uC5B42 \uB4DC\uB9B4"
+  description: "\uB9AC\uD2AC \xB7 \uC54C\uB8E8\uBBF8\uB284\uC740 \uB2E8\uB2E8\uD574\uC11C
+    \uD2F0\uC5B42 \uB4DC\uB9B4\uC774 \uC788\uC5B4\uC57C \uCE90\uC694."
+  talk: "\uB354 \uB2E8\uB2E8\uD55C \uAD11\uC11D\uC744 \uCE90\uB824\uBA74 \uB4DC\uB9B4\uC744
+    \uAC15\uD654\uD574\uC57C \uD574\uC694."
+  hint: "[\uC81C\uC791](C) \u2192 \uB3C4\uAD6C \uD0ED \u2192 \uD2F0\uC5B42 \uB4DC\uB9B4
+    (\uD2F0\uC5B41 \uB4DC\uB9B4\uC744 \uAC15\uD654)"
+  padHint: "\uC2ED\uC790\uD0A4 \u2191 \uC81C\uC791 \u2192 \uB3C4\uAD6C \uD0ED \u2192
+    \uD2F0\uC5B42 \uB4DC\uB9B4"
+  tutorialTip: "\uD2F0\uC5B42 \uB4DC\uB9B4\uC740 \uCD08\uB2F9 \uCC44\uAD74\uB7C9\uC774
+    6\uBC30\uC608\uC694."
+  objectives:
+  - type: 1
+    targetItem: {fileID: 11400000, guid: c026594d48f6fa44e9bc0ab4c4dd453b, type: 2}
+    targetTechNodeId: 
+    targetAmount: 1
+  rewards: []
+  rewardCoins: 0

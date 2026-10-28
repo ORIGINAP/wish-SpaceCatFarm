@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_AutoSeller
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uC791\uBB3C \uD310\uB9E4\uAE30"
+  description: "4\uCE78 \uC548 \uCC3D\uACE0\uC5D0 \uBAA8\uC778 \uC791\uBB3C\uC744
+    5\uCD08\uB9C8\uB2E4 10\uAC1C\uC529 \uD314\uC544 \uCF54\uC778\uC73C\uB85C \uBC14\uAFD4\uC694.
+    \uC528\uC557 \xB7 \uC790\uC6D0\uC740 \uD314\uC9C0 \uC54A\uC544\uC694."
+  icon: {fileID: 21300000, guid: 6ba483a30382fea469be98289a439158, type: 3}
+  itemType: 0
+  basePrice: 120
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 2
+  tilePrefab: {fileID: 5230064449828115395, guid: 3daae232a7b55b8448893930807bcd77, type: 3}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

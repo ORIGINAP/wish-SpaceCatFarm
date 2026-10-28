@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Compost
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uD1F4\uBE44"
+  description: "\uB0A8\uB294 \uC528\uC557 \xB7 \uC791\uBB3C\uC744 \uD1F4\uBE44\uD1B5\uC5D0\uC11C
+    \uC369\uD600 \uB9CC\uB4E0 \uAC70\uB984. \uB4E4\uACE0 \uBC2D\uC744 \uD074\uB9AD\uD558\uBA74
+    \uC218\uD655 3\uBC88 \uB3D9\uC548 \uC791\uBB3C\uC774 \uB354 \uC5F4\uB824\uC694."
+  icon: {fileID: 21300000, guid: fd1310f3e0f2f594596142bc67809045, type: 3}
+  itemType: 2
+  basePrice: 6
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 1
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  goldenVariant: {fileID: 0}
+  isGolden: 0
+  fertilizerCharges: 3
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

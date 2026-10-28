@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_Civ_CommTower
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uD1B5\uC2E0\uD0D1"
+  description: "\uACE0\uD5A5\uBCC4\uACFC \uC5F0\uB77D\uC744 \uC787\uB294 \uD1B5\uC2E0\uD0D1\uC774\uC5D0\uC694.
+    \uC804\uAE30\uAC00 \uB4E4\uC5B4\uC624\uBA74 \uC774\uC8FC \uC154\uD2C0\uC774 \uD55C
+    \uCC99 \uB354 \uB2E4\uB140\uC694."
+  tier: 1
+  station: 0
+  requiredCoreLevel: 4
+  ingredients:
+  - item: {fileID: 11400000, guid: 05dd3c26530d0f442a3c7f6e601a9bd0, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 36f7eafa9e9b77240b4961871c2f738e, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 4308958355191c743a06311876f7488b, type: 2}
+    amount: 4
+  outputItem: {fileID: 11400000, guid: 85d626e5c06678b46b1c8e816e76753d, type: 2}
+  outputAmount: 1
+  craftSeconds: 0

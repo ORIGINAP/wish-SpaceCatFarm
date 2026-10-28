@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C1_03_Harvest
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uCCAB \uC218\uD655"
+  description: "\uB2E4 \uC790\uB780 \uC791\uBB3C\uC740 \uBC18\uC9DD\uBC18\uC9DD!
+    \uAC70\uB46C\uB4E4\uC5EC\uC694."
+  talk: "\uC640, \uBC18\uC9DD\uBC18\uC9DD \uB2E4 \uC790\uB790\uC5B4\uC694! \uC5BC\uB978
+    \uAC70\uB46C\uB4E4\uC5EC\uC694."
+  hint: "\uB2E4 \uC790\uB780 \uC791\uBB3C\uC744 \uD074\uB9AD (\uBB34\uC5C7\uC744
+    \uB4E4\uACE0 \uC788\uC5B4\uB3C4 \uB3FC\uC694)"
+  padHint: "\uB2E4 \uC790\uB780 \uBC2D \uC55E\uC5D0\uC11C RT"
+  tutorialTip: "\uC218\uD655\uD558\uBA74 \uC791\uBB3C\uACFC \uC528\uC557(\uAC00\uB054
+    2\uAC1C)\uC774 \uB098\uC640\uC694. \uBE48 \uBC2D\uC5D4 \uBC14\uB85C \uB2E4\uC2DC
+    \uC2EC\uC744 \uC218 \uC788\uC5B4\uC694."
+  objectives:
+  - type: 2
+    targetItem: {fileID: 0}
+    targetTechNodeId: 
+    targetAmount: 10
+  rewards:
+  - item: {fileID: 11400000, guid: ca722811f3e498744948cb85b9a99fd8, type: 2}
+    amount: 4
+  - item: {fileID: 11400000, guid: 9a4610f78503a58468e133793ab219e6, type: 2}
+    amount: 4
+  rewardCoins: 0

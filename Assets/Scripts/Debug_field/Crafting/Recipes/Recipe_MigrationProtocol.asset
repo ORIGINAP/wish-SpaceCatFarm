@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_MigrationProtocol
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uD589\uC131 \uC774\uC8FC \uD504\uB85C\uD1A0\uCF5C"
+  description: "\uC774\uC8FC\uC120 \uCC29\uB959\uC7A5\uC744 \uC138\uC6B0\uB294 \uB370
+    \uD544\uC694\uD55C \uC774\uC8FC \uC124\uACC4\uB3C4\uC608\uC694. \uC13C\uD130\uCF54\uC5B4\uAC00
+    \uC6B0\uC8FC \uD56D\uAD6C(Lv.6)\uC5D0 \uC624\uB974\uBA74 \uB9CC\uB4E4 \uC218
+    \uC788\uC5B4\uC694."
+  tier: 2
+  station: 0
+  requiredCoreLevel: 6
+  ingredients:
+  - item: {fileID: 11400000, guid: 13dcde189d6d71846ab8922996dedadf, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: a675a71de4ef51c4291468341de6d436, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: bdf1c3acc7552f247869eb35889f206d, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 52774bf4b8aa9614a8398c848c2d1d0e, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 85c975e143cc4ed6bf895a67589f90ae, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: aea2542efd9d72d46827de540616412b, type: 2}
+    amount: 4
+  outputItem: {fileID: 11400000, guid: fc4dba2114214152b66d29319a3d6e75, type: 2}
+  outputAmount: 1
+  craftSeconds: 0

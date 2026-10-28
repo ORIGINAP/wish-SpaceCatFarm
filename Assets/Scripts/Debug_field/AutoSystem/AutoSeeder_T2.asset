@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: AutoSeeder_T2
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uACE0\uAE09 \uC790\uB3D9\uD30C\uC885\uAE30"
+  description: "2x2 \uD06C\uAE30, \uD55C \uBC88\uC5D0 \uC5EC\uB7EC \uCE78\uC744 \uC790\uB3D9\uC73C\uB85C
+    \uD30C\uC885\uD569\uB2C8\uB2E4"
+  icon: {fileID: -7507618600319416699, guid: f2c1251b27af94749be3a55768fa501f, type: 3}
+  itemType: 0
+  basePrice: 420
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 3
+  tilePrefab: {fileID: 9190770296140257897, guid: 32063247da4940eea73e62173fd9efab, type: 3}
+  tileWidth: 2
+  tileHeight: 2
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

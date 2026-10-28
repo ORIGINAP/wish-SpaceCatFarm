@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_StarJam
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uBCC4\uBE5B \uC7BC"
+  description: "\uBE14\uB8E8 \xB7 \uB808\uB4DC \xB7 \uC610\uB85C\uC2A4\uD0C0\uB97C
+    \uD55C \uBCD1\uC5D0 \uC878\uC778 \uBC18\uC9DD\uC774\uB294 \uC7BC\uC774\uC5D0\uC694.
+    \uACE0\uC591\uC774 \uC8FC\uBC29 \uCCAB \uC694\uB9AC!"
+  icon: {fileID: 21300000, guid: 2e0c8246a8ad306418dbfb17e88d7aae, type: 3}
+  itemType: 2
+  basePrice: 48
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 1
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 1
+  goldenVariant: {fileID: 0}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

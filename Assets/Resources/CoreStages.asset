@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a915433a6d19241a74ad8ecc1edbc9, type: 3}
+  m_Name: CoreStages
+  m_EditorClassIdentifier: Assembly-CSharp::CoreStageTable
+  stages:
+  - title: "\uCC29\uB959 \uAE30\uC9C0"
+    description: "\uACE0\uC591\uC774 \uB300\uC6D0\uC774 \uB9C9 \uB0B4\uB824\uC549\uC740
+      \uC791\uC740 \uAE30\uC9C0\uC608\uC694. \uAE30\uCD08 \uC5F0\uAD6C\uC18C\uB97C
+      \uC138\uC6CC \uAC1C\uCC99\uC744 \uC2DC\uC791\uD574\uC694."
+    spriteOn: {fileID: 21300000, guid: 773f80c26b43ca847882bc1b55420874, type: 3}
+    spriteOff: {fileID: 21300000, guid: d5758332c2c31fd448502a556f2d1850, type: 3}
+    maxFuel: 300
+    requirements: []
+  - title: "\uAC1C\uCC99 \uCEA0\uD504"
+    description: "\uC5F0\uAD6C\uC18C\uC5D0 \uBD88\uC774 \uCF1C\uC84C\uC5B4\uC694!
+      \uC774\uC81C \uC628\uC2E4\uACFC \uAE09\uC218\uD0D1\uC73C\uB85C \uBA39\uC744\uAC70\uB9AC\uB97C
+      \uD0A4\uC6B8 \uCC28\uB840\uC608\uC694."
+    spriteOn: {fileID: 21300000, guid: 931f07b7b5ca0bc4fa2421584d662050, type: 3}
+    spriteOff: {fileID: 21300000, guid: 0f55261d468fd1c478720ab68c08dd11, type: 3}
+    maxFuel: 400
+    requirements:
+    - type: 0
+      item: {fileID: 11400000, guid: acb5eb449f2b38f46900960d9674f153, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+      amount: 10
+      needsPower: 0
+      techNodeId: 
+    - type: 5
+      item: {fileID: 0}
+      amount: 3
+      needsPower: 0
+      techNodeId: 
+    - type: 3
+      item: {fileID: 0}
+      amount: 300
+      needsPower: 0
+      techNodeId: 
+  - title: "\uB18D\uC5C5 \uB9C8\uC744"
+    description: "\uC628\uC2E4\uACFC \uAE09\uC218\uD0D1 \uB355\uBD84\uC5D0 \uB9C8\uC744\uC5D0
+      \uBA39\uC744\uAC70\uB9AC\uAC00 \uB118\uCCD0\uC694. \uB2E4\uC74C\uC740 \uACF5\uC7A5\uC744
+      \uB3CC\uB9B4 \uCC28\uB840!"
+    spriteOn: {fileID: 21300000, guid: 116b6a88a6bf549438e3e6463c9925fc, type: 3}
+    spriteOff: {fileID: 21300000, guid: 7a6ba3cb8af21c4468fd3063395e9e7e, type: 3}
+    maxFuel: 520
+    requirements:
+    - type: 0
+      item: {fileID: 11400000, guid: 49659b18329ca1243a5407931231290c, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: 0d6243a89b5f91a4da9cef5545ae3656, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: b29108e632356d447af75aaf56fbd0eb, type: 2}
+      amount: 1
+      needsPower: 0
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+      amount: 20
+      needsPower: 1
+      techNodeId: 
+    - type: 1
+      item: {fileID: 0}
+      amount: 4
+      needsPower: 0
+      techNodeId: 
+    - type: 5
+      item: {fileID: 0}
+      amount: 12
+      needsPower: 0
+      techNodeId: 
+    - type: 3
+      item: {fileID: 0}
+      amount: 2000
+      needsPower: 0
+      techNodeId: 
+  - title: "\uC0B0\uC5C5 \uB3C4\uC2DC"
+    description: "\uACF5\uC7A5\uC774 \uB3CC\uC544\uAC00\uBA70 \uC124\uBE44\uB97C
+      \uCC99\uCC99 \uB9CC\uB4E4\uC5B4 \uB0B4\uC694. \uC774\uC81C \uD558\uB298\uC744
+      \uC5F0\uAD6C\uD560 \uB54C\uC608\uC694."
+    spriteOn: {fileID: 21300000, guid: 06dfe38e832526640949325e79860075, type: 3}
+    spriteOff: {fileID: 21300000, guid: eed72baae3d42b143b75ce9ef5df6840, type: 3}
+    maxFuel: 660
+    requirements:
+    - type: 0
+      item: {fileID: 11400000, guid: 5628a3d6c27f8a348a045a5709b4cb8c, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: bdf1c3acc7552f247869eb35889f206d, type: 2}
+      amount: 1
+      needsPower: 0
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: a675a71de4ef51c4291468341de6d436, type: 2}
+      amount: 1
+      needsPower: 0
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+      amount: 36
+      needsPower: 1
+      techNodeId: 
+    - type: 1
+      item: {fileID: 0}
+      amount: 7
+      needsPower: 0
+      techNodeId: 
+    - type: 5
+      item: {fileID: 0}
+      amount: 30
+      needsPower: 0
+      techNodeId: 
+    - type: 3
+      item: {fileID: 0}
+      amount: 8000
+      needsPower: 0
+      techNodeId: 
+  - title: "\uACFC\uD559 \uB3C4\uC2DC"
+    description: "\uCC9C\uBB38\uB300\uAC00 \uACE0\uD5A5\uBCC4\uAE4C\uC9C0 \uAC00\uB294
+      \uD558\uB298\uAE38\uC744 \uCC3E\uC558\uC5B4\uC694! \uD1B5\uC2E0\uD0D1 \uB355\uBD84\uC5D0
+      \uC154\uD2C0\uC774 \uB354 \uC790\uC8FC \uC624\uAC00\uC694."
+    spriteOn: {fileID: 21300000, guid: 7f5aba06e3a035846b04b9bdc7b7841f, type: 3}
+    spriteOff: {fileID: 21300000, guid: aea495f3253b67f4d890dfa03c82149f, type: 3}
+    maxFuel: 820
+    requirements:
+    - type: 0
+      item: {fileID: 11400000, guid: e350a5a2dd113e546887d6e16219173f, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: 85d626e5c06678b46b1c8e816e76753d, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+      amount: 60
+      needsPower: 1
+      techNodeId: 
+    - type: 1
+      item: {fileID: 0}
+      amount: 10
+      needsPower: 0
+      techNodeId: 
+    - type: 5
+      item: {fileID: 0}
+      amount: 50
+      needsPower: 0
+      techNodeId: 
+    - type: 3
+      item: {fileID: 0}
+      amount: 30000
+      needsPower: 0
+      techNodeId: 
+  - title: "\uC6B0\uC8FC \uD56D\uAD6C"
+    description: "\uAD00\uC81C\uD0D1\uACFC \uAC70\uC8FC \uBAA8\uB4C8\uC774 \uC120
+      \uC6B0\uC8FC \uD56D\uAD6C\uC608\uC694. \uC774\uC81C \uD070 \uC774\uC8FC\uC120\uC774
+      \uB0B4\uB824\uC549\uC744 \uCC29\uB959\uC7A5\uB9CC \uC138\uC6B0\uBA74 \uB3FC\uC694."
+    spriteOn: {fileID: 21300000, guid: 45f50a501e7c2c3499f5e2b9d2f776aa, type: 3}
+    spriteOff: {fileID: 21300000, guid: 1820cd279dd0b7e47a8b6d3f2475ca3e, type: 3}
+    maxFuel: 1000
+    requirements:
+    - type: 0
+      item: {fileID: 11400000, guid: 610ae5d17f3111b40a528418970352ee, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: 09f03c176ddeb4145935073a6327af83, type: 2}
+      amount: 2
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+      amount: 80
+      needsPower: 1
+      techNodeId: 
+    - type: 1
+      item: {fileID: 0}
+      amount: 12
+      needsPower: 0
+      techNodeId: 
+    - type: 5
+      item: {fileID: 0}
+      amount: 100
+      needsPower: 0
+      techNodeId: 
+    - type: 3
+      item: {fileID: 0}
+      amount: 120000
+      needsPower: 0
+      techNodeId: 
+  - title: "\uC0C8 \uACE0\uD5A5"
+    description: "\uD070 \uC774\uC8FC\uC120\uC774 \uACE0\uD5A5\uBCC4\uC5D0 \uB0A8\uC740
+      \uACE0\uC591\uC774\uB4E4\uC744 \uBAA8\uB450 \uD0DC\uC6B0\uACE0 \uCC29\uB959\uC7A5\uC5D0
+      \uB0B4\uB824\uC549\uC558\uC5B4\uC694. \uBD88\uBAA8\uC9C0\uC600\uB358 \uC774
+      \uB545\uC774 \uACE0\uC591\uC774\uB4E4\uC758 \uC0C8 \uACE0\uD5A5\uC774 \uB410\uC5B4\uC694!"
+    spriteOn: {fileID: 21300000, guid: 81a1cd770645aa24ab48edc06132e76c, type: 3}
+    spriteOff: {fileID: 21300000, guid: b3201d7705421244392ec381857c6a5d, type: 3}
+    maxFuel: 1300
+    requirements:
+    - type: 0
+      item: {fileID: 11400000, guid: 9a5caf1724bcf274ab0a66cef85ca846, type: 2}
+      amount: 1
+      needsPower: 1
+      techNodeId: 
+    - type: 0
+      item: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+      amount: 100
+      needsPower: 1
+      techNodeId: 
+    - type: 1
+      item: {fileID: 0}
+      amount: 14
+      needsPower: 0
+      techNodeId: 
+    - type: 5
+      item: {fileID: 0}
+      amount: 150
+      needsPower: 0
+      techNodeId: 
+    - type: 3
+      item: {fileID: 0}
+      amount: 300000
+      needsPower: 0
+      techNodeId: 

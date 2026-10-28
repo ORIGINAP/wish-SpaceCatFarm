@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_StarJam
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uBCC4\uBE5B \uC7BC"
+  description: "\uBE14\uB8E8 \xB7 \uB808\uB4DC \xB7 \uC610\uB85C\uC2A4\uD0C0\uB97C
+    \uD55C \uBCD1\uC5D0 \uC878\uC778 \uBC18\uC9DD\uC774\uB294 \uC7BC\uC774\uC5D0\uC694.
+    \uACE0\uC591\uC774 \uC8FC\uBC29 \uCCAB \uC694\uB9AC!"
+  tier: 0
+  station: 2
+  requiredCoreLevel: 1
+  ingredients:
+  - item: {fileID: 11400000, guid: 8db1d47029041dd42a72827d803d8fb8, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 1d465876001f79d4c9ab6e9b62345a03, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: fb75187373f62e6498ca69248639473d, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: d251cbd9882893945853bdc415a829e5, type: 2}
+  outputAmount: 1
+  craftSeconds: 8

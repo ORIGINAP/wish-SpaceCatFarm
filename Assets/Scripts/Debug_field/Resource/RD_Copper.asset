@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2f5e3d4ac200c43993a13bdcf87068, type: 3}
+  m_Name: RD_Copper
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceData
+  resourceName: "\uAD6C\uB9AC"
+  rarity: 0
+  stageSprites:
+  - {fileID: -667380675496201804, guid: f057944a45f3ba44c89268793d30c8aa, type: 3}
+  variants:
+  - {fileID: -667380675496201804, guid: f057944a45f3ba44c89268793d30c8aa, type: 3}
+  - {fileID: 21300000, guid: b1fb5504844a32c47922228cdd450056, type: 3}
+  - {fileID: 21300000, guid: 084d79ce5ebb8a042894de5869a3db23, type: 3}
+  chipColor: {r: 0.9411765, g: 0.6039216, b: 0.32156864, a: 1}
+  dropItem: {fileID: 11400000, guid: b0306d08f44f3da4fbbc010aad1897fe, type: 2}
+  dropAmountMin: 1
+  dropAmountMax: 1
+  minToolGrade: 1
+  dropInterval: 0.4
+  maxResources: 50
+  scaleMax: 1
+  scaleMin: 0.4

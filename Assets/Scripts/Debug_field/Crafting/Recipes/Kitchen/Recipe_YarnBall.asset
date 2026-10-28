@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_YarnBall
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uD138\uC2E4 \uBB49\uCE58"
+  description: "\uD138\uC2E4 \uAF43\uC5D0\uC11C \uBF51\uC740 \uC2E4\uC744 \uB465\uAE00\uAC8C
+    \uAC10\uC740 \uC7A5\uB09C\uAC10. \uAD74\uB9AC\uBA74 \uBA48\uCD9C \uC218\uAC00
+    \uC5C6\uC5B4\uC694."
+  tier: 0
+  station: 2
+  requiredCoreLevel: 3
+  ingredients:
+  - item: {fileID: 11400000, guid: 3087b8b4f7e3f714d9ecacb4c39c83fc, type: 2}
+    amount: 3
+  outputItem: {fileID: 11400000, guid: 1d17fe72b7dc2bf47ae8fe731dc7f94a, type: 2}
+  outputAmount: 1
+  craftSeconds: 12

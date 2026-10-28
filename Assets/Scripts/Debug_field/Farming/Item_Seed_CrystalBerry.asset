@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Seed_CrystalBerry
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uD06C\uB9AC\uC2A4\uD0C8 \uBCA0\uB9AC \uC528\uC557"
+  description: "\uD06C\uB9AC\uC2A4\uD0C8 \uBCA0\uB9AC\uC744(\uB97C) \uD0A4\uC6B0\uB294
+    \uC528\uC557\uC774\uC5D0\uC694. \uC13C\uD130\uCF54\uC5B4 \uBB38\uBA85 Lv.4\uC5D0
+    \uC5F4\uB824\uC694."
+  icon: {fileID: 21300000, guid: 76135c32b87bed7469383c21875602c7, type: 3}
+  itemType: 1
+  basePrice: 11
+  hideFromShop: 0
+  unlockCoreLevel: 4
+  tier: 3
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 11400000, guid: 3cbb3f79c9d76604fbb113739c0732c6, type: 2}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 5
+  harvestRadius: 0
+  equipBonuses: []

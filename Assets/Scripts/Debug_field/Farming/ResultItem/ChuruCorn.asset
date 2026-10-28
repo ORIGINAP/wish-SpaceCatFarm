@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: ChuruCorn
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uCE04\uB974 \uC625\uC218\uC218"
+  description: "\uACE0\uC591\uC774\uB4E4\uC774 \uC81C\uC77C \uC88B\uC544\uD558\uB294
+    \uAC04\uC2DD \uB9DB \uC625\uC218\uC218\uC608\uC694."
+  icon: {fileID: 21300000, guid: 2145a0213016fb6448a1a5b8a86a66b7, type: 3}
+  itemType: 2
+  basePrice: 35
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 2
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 1
+  goldenVariant: {fileID: 11400000, guid: 12ea42d47e5e0bb4e8f6a12311f01f71, type: 2}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

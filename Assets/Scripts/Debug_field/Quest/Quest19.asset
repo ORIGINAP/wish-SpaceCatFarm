@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest19
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "설치3"
+  description: "고급 자동채굴기, 고급 자동파종기, 고급 자동수확기를 설치하세요"
+  tutorialTip: "고급 장비는 한 번에 더 넓은 범위, 더 많은 타일을 처리합니다. 기존 장비 옆 넓은 공간에 설치해보세요."
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: 57a1eecc61f44676a3c7e7378b960a58, type: 2}
+    targetTechNodeId:
+    targetAmount: 1
+  - type: 3
+    targetItem: {fileID: 11400000, guid: 4081355d69f54c21af6b5c2adf130f7f, type: 2}
+    targetTechNodeId:
+    targetAmount: 1
+  - type: 3
+    targetItem: {fileID: 11400000, guid: 07926f76c06948aaa82ef0feaf3666e7, type: 2}
+    targetTechNodeId:
+    targetAmount: 1
+  rewards:
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 10

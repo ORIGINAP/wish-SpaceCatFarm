@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest6
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uD310\uB9E41"
+  description: "\uC0C1\uC810\uC5D0\uC11C \uC218\uD655\uD55C \uBE14\uB8E8\uC2A4\uD0C0 5\uAC1C\uB97C \uD310\uB9E4\uD574 \uCF54\uC778\uC744 \uBAA8\uC73C\uC138\uC694"
+  tutorialTip: "B \uD0A4\uB85C \uC0C1\uC810\uC744 \uC5FD\uB2C8\uB2E4. \uC544\uC774\uD15C\uC744
+    \uC120\uD0DD\uD574 \uD310\uB9E4\uD558\uBA74 \uCF54\uC778\uC744 \uBC1B\uC744 \uC218
+    \uC788\uC5B4\uC694."
+  objectives:
+  - type: 4
+    targetItem: {fileID: 11400000, guid: 8db1d47029041dd42a72827d803d8fb8, type: 2}
+    targetTechNodeId: 
+    targetAmount: 5
+  rewards:
+  - item: {fileID: 11400000, guid: d63e8dc05f29e9b41a5de95b012d290e, type: 2}
+    amount: 5

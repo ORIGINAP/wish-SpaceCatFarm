@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: "\uC2A4\uD1B0\uC274\uB4DC"
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uCE68\uC785\uBC29\uC5B4\uB9C9"
+  description: "\uBAA8\uB798\uD3ED\uD48D \xB7 \uB208\uBCF4\uB77C\uB85C\uBD80\uD130
+    \uC8FC\uBCC0 \uBC2D\uC744 \uC9C0\uCF1C \uC8FC\uB294 \uBC29\uC5B4\uB9C9"
+  tier: 2
+  station: 0
+  requiredCoreLevel: 4
+  ingredients:
+  - item: {fileID: 11400000, guid: ce1ba0771eaceb441820228ce700d6da, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 85c975e143cc4ed6bf895a67589f90ae, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: 2bf5e7d3faac14048ab4a39684afa3ca, type: 2}
+  outputAmount: 1

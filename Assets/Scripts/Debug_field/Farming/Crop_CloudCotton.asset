@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac986a4229f48a40bb00796bb21582c, type: 3}
+  m_Name: Crop_CloudCotton
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: "\uC19C\uAD6C\uB984 \uBAA9\uD654"
+  stageSprites:
+  - {fileID: 21300000, guid: 0ad88538a5bc9f448966e6937a1cdcf2, type: 3}
+  - {fileID: 21300000, guid: 63c67e8826e4ecb44a57f50d95d44fbe, type: 3}
+  - {fileID: 21300000, guid: 5e5954818f33bce4dac95220ff6ae59a, type: 3}
+  stageTimes:
+  - 12
+  - 13

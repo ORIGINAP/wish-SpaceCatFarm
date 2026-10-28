@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: Quest14
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "수확2"
+  description: "창고, 자동파종기, 자동수확기를 설치하고 작물을 20회 수확하세요"
+  tutorialTip: "창고, 자동파종기, 자동수확기를 밭 근처에 설치하세요. 이제 씨앗을 직접 심지 않아도 자동으로 파종하고 수확합니다."
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: 0094e7cae239af5428c39bcf0df502e4, type: 2}
+    targetTechNodeId:
+    targetAmount: 1
+  - type: 3
+    targetItem: {fileID: 11400000, guid: bdf1c3acc7552f247869eb35889f206d, type: 2}
+    targetTechNodeId:
+    targetAmount: 1
+  - type: 3
+    targetItem: {fileID: 11400000, guid: a675a71de4ef51c4291468341de6d436, type: 2}
+    targetTechNodeId:
+    targetAmount: 1
+  - type: 2
+    targetItem: {fileID: 11400000, guid: d63e8dc05f29e9b41a5de95b012d290e, type: 2}
+    targetTechNodeId:
+    targetAmount: 20
+  rewards:
+  - item: {fileID: 11400000, guid: 1d7aa787e8f70e24aa8325d44247b5d2, type: 2}
+    amount: 10
+  - item: {fileID: 11400000, guid: d63e8dc05f29e9b41a5de95b012d290e, type: 2}
+    amount: 10

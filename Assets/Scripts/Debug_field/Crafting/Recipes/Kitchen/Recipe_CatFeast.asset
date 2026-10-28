@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 357b9bc829fb10d49b9067fa176729d1, type: 3}
+  m_Name: Recipe_CatFeast
+  m_EditorClassIdentifier: Assembly-CSharp::CraftingRecipe
+  recipeName: "\uACE0\uC591\uC774 \uB9CC\uCC2C"
+  description: "\uCE04\uB974 \xB7 \uD0C0\uB974\uD2B8 \xB7 \uC8FC\uC2A4 \xB7 \uC0D0\uB7EC\uB4DC\uB97C
+    \uD55C\uC0C1 \uAC00\uB4DD \uCC28\uB9B0 \uC774\uC8FC \uCD95\uD558 \uB9CC\uCC2C."
+  tier: 0
+  station: 2
+  requiredCoreLevel: 6
+  ingredients:
+  - item: {fileID: 11400000, guid: 5f9a6edec1ef10048b7bd5c6ed033882, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 756ce58e7154eee4081d8c0d5fe13d04, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: e5d12290973a69544875b6ddd0cb939e, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 9d4fe7ebeba1e194fb0b396e106b7f0e, type: 2}
+    amount: 1
+  outputItem: {fileID: 11400000, guid: 3fd9afa51b886174d914f0b2d5f6e232, type: 2}
+  outputAmount: 1
+  craftSeconds: 30

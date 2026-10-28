@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a888e0bced5bddb42928b3c84198ab7f, type: 3}
+  m_Name: C3_04b_MachineFarm
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questName: "\uAE30\uACC4 \uB18D\uC7A5"
+  description: "\uC790\uB3D9\uC218\uD655\uAE30\uB294 \uB458\uB808\uC758 \uB2E4 \uC790\uB780
+    \uC791\uBB3C\uC744 \uC54C\uC544\uC11C \uAC70\uB46C\uC694. \uBC2D\uC744 36\uCE78\uC73C\uB85C
+    \uB113\uD788\uACE0, \uC218\uD655\uAE30 \uBC94\uC704 \uC548 \uBC2D\uC5D0 \uC2EC\uC5B4
+    \uC790\uB3D9\uC218\uD655\uAE30\uB85C 30\uBC88 \uAC70\uB46C\uC694."
+  talk: "\uBC2D\uC774 \uB113\uC5B4\uC9C0\uBA74 \uC190\uC73C\uB85C \uB2E4 \uAC70\uB450\uAE30
+    \uBC85\uCC28\uC694. \uBC2D\uC744 36\uCE78\uC73C\uB85C \uB113\uD788\uACE0 \uC790\uB3D9\uC218\uD655\uAE30\uAC00
+    \uAC70\uB450\uB294 \uAC78 \uC9C0\uCF1C\uBD10\uC694!"
+  hint: "\uC218\uD655\uAE30\uC5D0 \uB9C8\uC6B0\uC2A4\uB97C \uC62C\uB9AC\uBA74 \uBC94\uC704\uAC00
+    \uBCF4\uC5EC\uC694 \u2014 \uADF8 \uC548\uC5D0 \uBC2D\uC744 \uAE54\uACE0 \uC2EC\uC5B4
+    \uB450\uAE30"
+  padHint: "\uC218\uD655\uAE30 \uACC1\uC5D0 \uBC2D\uC744 \uAE54\uACE0 \uC2EC\uC5B4
+    \uB450\uAE30 \u2014 \uB2E4 \uC790\uB77C\uBA74 \uC218\uD655\uAE30\uAC00 \uAC70\uB46C\uC694"
+  tutorialTip: "\uC218\uD655\uAE30 \xB7 \uD30C\uC885\uAE30\uB97C \uAC19\uC740 \uCC3D\uACE0\uC640
+    \uC5F0\uACB0\uD558\uBA74(\uC124\uBE44\uB97C \uD074\uB9AD\uD574 [\uC5F0\uACB0\uD558\uAE30])
+    \uAC70\uB454 \uC528\uC557\uC744 \uD30C\uC885\uAE30\uAC00 \uB2E4\uC2DC \uAEBC\uB0B4
+    \uC2EC\uC5B4\uC694 \u2014 \uBC2D\uC774 \uD63C\uC790 \uB3CC\uC544\uAC00\uC694!"
+  objectives:
+  - type: 3
+    targetItem: {fileID: 11400000, guid: e3cc4a6e3733f5644aaaa3e8fdd6c29c, type: 2}
+    targetTechNodeId: 
+    targetAmount: 36
+  - type: 12
+    targetItem: {fileID: 11400000, guid: a675a71de4ef51c4291468341de6d436, type: 2}
+    targetTechNodeId: 
+    targetAmount: 30
+  rewards: []
+  rewardCoins: 300

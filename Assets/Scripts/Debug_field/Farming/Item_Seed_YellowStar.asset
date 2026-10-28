@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Seed_YellowStar
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uC610\uB85C\uC2A4\uD0C0 \uC528\uC557"
+  description: 
+  icon: {fileID: -2470383930922815410, guid: b0bfe263781cf47409ae9f62f7fdb281, type: 3}
+  itemType: 1
+  basePrice: 1
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 11400000, guid: 8a07c25c6ba932342ae4fe0486771e85, type: 2}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 5
+  harvestRadius: 0
+  equipBonuses: []

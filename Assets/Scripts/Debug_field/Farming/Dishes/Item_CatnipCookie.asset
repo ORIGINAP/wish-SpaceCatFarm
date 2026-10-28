@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_CatnipCookie
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uCEA3\uB2E2 \uCFE0\uD0A4"
+  description: "\uCEA3\uB2E2 \uAC00\uB8E8\uB97C \uC194\uC194 \uBFCC\uB9B0 \uACE0\uC591\uC774
+    \uC5BC\uAD74 \uCFE0\uD0A4. \uD55C \uC785 \uBA39\uC73C\uBA74 \uAE30\uBD84\uC774
+    \uBABD\uAE00\uBABD\uAE00\uD574\uC838\uC694."
+  icon: {fileID: 21300000, guid: 85722118c239c924991d4a8a131a7c82, type: 3}
+  itemType: 2
+  basePrice: 26
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 1
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 1
+  goldenVariant: {fileID: 0}
+  isGolden: 0
+  fertilizerCharges: 0
+  toolGrade: 1
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 0
+  equipBonuses: []

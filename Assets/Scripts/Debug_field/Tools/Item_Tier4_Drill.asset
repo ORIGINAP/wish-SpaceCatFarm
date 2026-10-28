@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_Tier4_Drill
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uD50C\uB77C\uC988\uB9C8 \uB4DC\uB9B4"
+  description: "\uD50C\uB77C\uC988\uB9C8 \uB0A0\uB85C \uBB34\uC5C7\uC774\uB4E0 \uC21C\uC2DD\uAC04\uC5D0
+    \uCE90\uC694. \uB4F1\uAE09 3 \xB7 \uCC44\uAD74\uB7C9 20 \xB7 \uCD08\uB2F9 20\uD68C.
+    \uC790\uB3D9\uCC44\uAD74\uAE30 \uC18C\uCF13\uC5D0\uB3C4 \uB07C\uC6B8 \uC218 \uC788\uC5B4\uC694."
+  icon: {fileID: 21300000, guid: 4fe631027769ccb4ebb70afe40383c98, type: 3}
+  itemType: 3
+  basePrice: 480
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tier: 4
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 3
+  miningPower: 20
+  miningSpeed: 20
+  harvestRadius: 0
+  equipBonuses: []

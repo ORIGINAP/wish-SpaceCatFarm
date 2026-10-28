@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a100f391993b48942a788e8c92762, type: 3}
+  m_Name: Item_HarvestSickle
+  m_EditorClassIdentifier: Assembly-CSharp::FarmingItemData
+  itemName: "\uC218\uD655 \uB0AB"
+  description: "\uB4E4\uACE0 \uD074\uB9AD\uD558\uBA74 \uC8FC\uBCC0 3\xD73 \uCE78\uC758
+    \uB2E4 \uC790\uB780 \uC791\uBB3C\uC744 \uD55C \uBC88\uC5D0 \uC218\uD655\uD574\uC694.
+    \uCC44\uAD74\uC740 \uBABB \uD574\uC694."
+  icon: {fileID: 21300000, guid: 6ee6fb8f4b0d4e249861b3c7b46b8916, type: 3}
+  itemType: 3
+  basePrice: 24
+  hideFromShop: 0
+  unlockCoreLevel: 0
+  tilePrefab: {fileID: 0}
+  tileWidth: 1
+  tileHeight: 1
+  seedData: {fileID: 0}
+  minToolGrade: 1
+  canUseFuel: 0
+  fuelValue: 20
+  isCropProduct: 0
+  toolGrade: 0
+  miningPower: 1
+  miningSpeed: 1
+  harvestRadius: 1
+  equipBonuses: []

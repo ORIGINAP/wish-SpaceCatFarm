@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2f5e3d4ac200c43993a13bdcf87068, type: 3}
+  m_Name: RD_Diamond
+  m_EditorClassIdentifier: Assembly-CSharp::ResourceData
+  resourceName: "\uB2E4\uC774\uC544\uBAAC\uB4DC"
+  rarity: 3
+  stageSprites:
+  - {fileID: -4500713930485512175, guid: 3ee819b64f3f61c45820b8cff9a51305, type: 3}
+  variants:
+  - {fileID: -4500713930485512175, guid: 3ee819b64f3f61c45820b8cff9a51305, type: 3}
+  - {fileID: 21300000, guid: b173bf82e1b49034485f542d50d28ea5, type: 3}
+  - {fileID: 21300000, guid: 2e2ce45d39d176e418e326d937739e93, type: 3}
+  chipColor: {r: 0.5254902, g: 0.9019608, b: 0.972549, a: 1}
+  dropItem: {fileID: 11400000, guid: 85c975e143cc4ed6bf895a67589f90ae, type: 2}
+  dropAmountMin: 1
+  dropAmountMax: 1
+  minToolGrade: 3
+  dropInterval: 0.4
+  maxResources: 50
+  scaleMax: 1
+  scaleMin: 0.4

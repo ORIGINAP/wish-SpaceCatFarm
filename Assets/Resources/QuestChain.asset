@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f54b2fa3c5db394fb8f5fd24c46576b, type: 3}
+  m_Name: QuestChain
+  m_EditorClassIdentifier: Assembly-CSharp::QuestChain
+  chapters:
+  - title: "\uCC29\uB959 \uAE30\uC9C0"
+    goal: "\uCCAB \uB18D\uC7A5\uC744 \uC77C\uAD6C\uACE0, \uCCAB \uC154\uD2C0\uB85C
+      \uACE0\uC591\uC774\uB4E4\uC744 \uB9DE\uC544\uC694!"
+    intro: "\uC120\uBC1C\uB300 \uBB34\uC0AC\uD788 \uCC29\uB959! \uC774\uC8FC \uD504\uB85C\uD1A0\uCF5C
+      \uCCAB \uB2E8\uACC4 \u2014 \uC774 \uBD88\uBAA8\uC9C0\uC5D0 \uACE0\uC591\uC774\uB4E4\uC774
+      \uBA39\uACE0 \uC0B4 \uBC2D\uBD80\uD130 \uC77C\uAD88\uC694."
+    quests:
+    - {fileID: 11400000, guid: 3d87d70c20213604cba1752298f1b271, type: 2}
+    - {fileID: 11400000, guid: a372f612f4bc5df4f992af22ae1ba591, type: 2}
+    - {fileID: 11400000, guid: ac71ebb6cdef55d4eb10659bbb46a89f, type: 2}
+    - {fileID: 11400000, guid: 4ea1e2773f22acd4eb65820c31d917cb, type: 2}
+    - {fileID: 11400000, guid: 4a60118dae269254683e949ab1686e44, type: 2}
+    - {fileID: 11400000, guid: 2476e8b19d6ef144d85b9e5071166e05, type: 2}
+    - {fileID: 11400000, guid: 820e047866c95a440a08dcf83369f1e1, type: 2}
+    - {fileID: 11400000, guid: f3fcc5e97d99e8a47a6d01076fd2b004, type: 2}
+    - {fileID: 11400000, guid: dd3a88a909d080f4fb2e7ce396ead49a, type: 2}
+    - {fileID: 11400000, guid: da0108dc05c3be5468680cab568597c9, type: 2}
+  - title: "\uAC1C\uCC99 \uCEA0\uD504"
+    goal: "\uC694\uB9AC\uC640 \uC0C8 \uC791\uBB3C\uB85C \uC8FC\uBBFC\uC744 \uB298\uB824
+      \uB18D\uC5C5 \uB9C8\uC744\uB85C!"
+    intro: "\uCCAB \uC8FC\uBBFC\uB4E4\uC774 \uC654\uC5B4\uC694! \uC694\uB9AC\uC640
+      \uC0C8 \uC791\uBB3C\uB85C \uB354 \uB9CE\uC740 \uACE0\uC591\uC774\uB97C \uB9DE\uC744
+      \uC900\uBE44\uB97C \uD574\uC694."
+    quests:
+    - {fileID: 11400000, guid: 91707fc176b322f42a8af72cf0f8e756, type: 2}
+    - {fileID: 11400000, guid: 915a9ffd312559e4884590a84bce7e87, type: 2}
+    - {fileID: 11400000, guid: 61ce689d1c06be048960133fb1dbb6ff, type: 2}
+    - {fileID: 11400000, guid: 7e672ed5c611043449128b559c870728, type: 2}
+    - {fileID: 11400000, guid: b7b90547a2388624d8b24e3709cf2b9c, type: 2}
+    - {fileID: 11400000, guid: bbc8568f2d2bb7547bf28d0198b04b45, type: 2}
+    - {fileID: 11400000, guid: 8ad299ca2d702b04188eb07ddd230595, type: 2}
+    - {fileID: 11400000, guid: 921e0e480c950d34c8c46019b86e768e, type: 2}
+  - title: "\uB18D\uC5C5 \uB9C8\uC744"
+    goal: "\uB3C4\uAD6C\uB97C \uAC15\uD654\uD558\uACE0 \uB18D\uC0AC\uB97C \uC790\uB3D9\uC73C\uB85C!
+      \uC0B0\uC5C5 \uB3C4\uC2DC\uB85C!"
+    intro: "\uC5B4\uC5FF\uD55C \uB18D\uC5C5 \uB9C8\uC744\uC774\uC5D0\uC694! \uB354
+      \uB9CE\uC740 \uACE0\uC591\uC774\uB97C \uBA39\uC774\uB824\uBA74 \uAE30\uACC4\uC5D0\uAC8C
+      \uB18D\uC0AC\uB97C \uB9E1\uACA8 \uBD10\uC694."
+    quests:
+    - {fileID: 11400000, guid: 023ab2a8f8c96a240a7feb1766e84621, type: 2}
+    - {fileID: 11400000, guid: 46d83b0319d096343b329c930774cd15, type: 2}
+    - {fileID: 11400000, guid: 42ad20280a3ac1440a62d13dee375d99, type: 2}
+    - {fileID: 11400000, guid: f8fd2bdb817700742b91e069a35bd403, type: 2}
+    - {fileID: 11400000, guid: c3c9fe9a3a215594782de821f05e4d3f, type: 2}
+    - {fileID: 11400000, guid: 409db87e328740344bbb1d0ed41fa29d, type: 2}
+    - {fileID: 11400000, guid: 5af51ce39acf115489be742629c9cf7a, type: 2}
+    - {fileID: 11400000, guid: 9d7fba4947375f54b9a1682f14c82488, type: 2}
+    - {fileID: 11400000, guid: c05eb2390668c3a46971c2411fabb4d0, type: 2}
+    - {fileID: 11400000, guid: fc6cccb2ed37d2142845f811deb70bbf, type: 2}
+  - title: "\uC0B0\uC5C5 \uB3C4\uC2DC"
+    goal: "\uD558\uB298\uC744 \uC5F0\uAD6C\uD560 \uD1B5\uC2E0\uD0D1 \xB7 \uCC9C\uBB38\uB300\uB97C
+      \uC138\uC6CC \uACFC\uD559 \uB3C4\uC2DC\uB85C!"
+    intro: "\uACF5\uC7A5 \uADC0 \uD658\uAE30\uAD6C\uC5D0\uC11C \uAE40\uC774 \uD3F4\uD3F4
+      \uB098\uC694! \uC774\uC81C \uD558\uB298\uC744 \uC5F0\uAD6C\uD560 \uCC28\uB840\uC608\uC694."
+    quests:
+    - {fileID: 11400000, guid: abadcaaaa18f54646bb15ab6806212a5, type: 2}
+    - {fileID: 11400000, guid: a81cbe674e993c1458b0b222b35100b9, type: 2}
+    - {fileID: 11400000, guid: 43193af588b703b4abb48027398f5a54, type: 2}
+    - {fileID: 11400000, guid: 574f5f894f947134a993949279216a81, type: 2}
+    - {fileID: 11400000, guid: bcffb8cd18bfb3240aae4589a16b974f, type: 2}
+    - {fileID: 11400000, guid: b5fe89daaaef46848a1683cb435b9338, type: 2}
+    - {fileID: 11400000, guid: 90dbe9c490bc53b42b1161288e120936, type: 2}
+    - {fileID: 11400000, guid: 3ecec64c46f84fb46a2e03f92dfd141d, type: 2}
+    - {fileID: 11400000, guid: 7a93aaf073ae49c43a70479a2ac089d0, type: 2}
+  - title: "\uACFC\uD559 \uB3C4\uC2DC"
+    goal: "\uC8FC\uBBFC\uC774 \uC0B4 \uAC70\uC8FC \uBAA8\uB4C8\uACFC \uC6B0\uC8FC
+      \uAD00\uC81C\uD0D1\uC73C\uB85C \uC6B0\uC8FC \uD56D\uAD6C\uB97C!"
+    intro: "\uCC9C\uBB38\uB300\uAC00 \uD070 \uC774\uC8FC\uC120\uC758 \uD558\uB298\uAE38\uC744
+      \uCC3E\uC558\uC5B4\uC694! \uB354 \uB9CE\uC740 \uACE0\uC591\uC774\uB97C \uB9DE\uC744
+      \uC900\uBE44\uB97C \uD574\uC694."
+    quests:
+    - {fileID: 11400000, guid: 898c5a6f8d2107a4ab0d48c3674274d1, type: 2}
+    - {fileID: 11400000, guid: a0191a63d2ce7f84ebc85e85a7549383, type: 2}
+    - {fileID: 11400000, guid: f8bbc7c6ed72fdc4cab825031062d06e, type: 2}
+    - {fileID: 11400000, guid: 6cfb5e07f3141e442a79306eb6560010, type: 2}
+    - {fileID: 11400000, guid: c041aa0e87cd17b48ad87c4a66446ccb, type: 2}
+    - {fileID: 11400000, guid: 2b18b5c855ac4c14f85f39a29d82d7de, type: 2}
+    - {fileID: 11400000, guid: d9583f1bfe57302478edb5557be8f88d, type: 2}
+  - title: "\uC6B0\uC8FC \uD56D\uAD6C"
+    goal: "\uD070 \uC774\uC8FC\uC120\uC774 \uB0B4\uB824\uC549\uC744 \uCC29\uB959\uC7A5\uC744
+      \uC138\uC6CC \uB0A8\uC740 \uACE0\uC591\uC774\uB4E4\uC744 \uBAA8\uB450 \uB9DE\uC774\uD574\uC694!"
+    intro: "\uB9C8\uC9C0\uB9C9 \uC7A5\uC774\uC5D0\uC694! \uC154\uD2C0\uB85C\uB294
+      \uB2E4 \uBABB \uD0DC\uC6CC\uC694 \u2014 \uACE0\uD5A5\uBCC4\uC758 \uD070 \uC774\uC8FC\uC120\uC774
+      \uB0B4\uB824\uC549\uC744 \uC790\uB9AC\uB97C \uB9CC\uB4E4\uC5B4 \uB0A8\uC740
+      \uACE0\uC591\uC774\uB4E4\uC744 \uBAA8\uB450 \uB9DE\uC774\uD574\uC694!"
+    quests:
+    - {fileID: 11400000, guid: 470b851f91fedae42a033c5b45f31ce9, type: 2}
+    - {fileID: 11400000, guid: 927ba61516d875c45a4478d46bb41607, type: 2}
+    - {fileID: 11400000, guid: e2cd07d2f9a14d045b91b36a5ab34e2e, type: 2}
+    - {fileID: 11400000, guid: 8336661f060a71a4faa4593cc06ed2c1, type: 2}
+    - {fileID: 11400000, guid: 7771b939d6bf77e47ab9bde0244d363b, type: 2}
+    - {fileID: 11400000, guid: 5001c58666451164090fe495958c6318, type: 2}
+    - {fileID: 11400000, guid: 05ca2ff75c22d7541a598d70bf9b7878, type: 2}
